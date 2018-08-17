@@ -1,61 +1,91 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Jules Azuma</title>
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+
+  <title>Basic Portfolio | Jules Azuma</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
 </head>
-
 <body>
+  
+<div class="row" id="header">
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Jules Azuma</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div class="col-4" id="brand">
+        <h1>Jules Azuma</h1>
     </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="http://dummyimage.com/600x400/000/00ffd5.png" alt="Works 1">
-        <h3>Works 1</h3>
-      </div>
-      <div class="work">
-        <img src="http://dummyimage.com/600x400/000/00ffd5.png" alt="Works 2">
-        <h3>Works 2</h3>
-      </div>
-      <div class="work">
-        <img src="http://dummyimage.com/600x400/000/00ffd5.png" alt="Works 3">
-        <h3>Works 3</h3>
-      </div>
-      <div class="work">
-        <img src="http://dummyimage.com/600x400/000/00ffd5.png" alt="Works 4">
-        <h3>Works 4</h3>
-      </div>
-      <div class="work">
-        <img src="http://dummyimage.com/600x400/000/00ffd5.png" alt="Works 5">
-        <h3>Works 5</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 
+    <div class="col-8" id="nav">
+        <a href="index.html"><span>About</span></a>
+        <span>|</span>
+        <a href="portfolio.html"><span>Portfolio</span></a>
+        <span>|</span>
+        <a href="contact.html"><span>Contact</span></a>
     </div>
-  </footer>
+</div>
+
+<div class="row">
+    <div class="col-8">   
+        <div id="portfolio">
+            <h2>Portfolio</h2>
+            <hr>
+                
+            <ul>
+                <li>
+                  <a href="#"><img src="http://dummyimage.com/600x400/000/00ffd5.png" height="110px"/> 
+                    <div class="portLabel">Works 1</div>   
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="http://dummyimage.com/600x400/000/00ffd5.png" height="110px"/> 
+                    <div class="portLabel">Works 2</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="http://dummyimage.com/600x400/000/00ffd5.png" height="110px"/> 
+                    <div class="portLabel">Works 3</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="http://dummyimage.com/600x400/000/00ffd5.png" height="110px"/> 
+                    <div class="portLabel">Works 4</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="http://dummyimage.com/600x400/000/00ffd5.png" height="110px"/> 
+                    <div class="portLabel">Works 5</div>
+                    </a>
+                </li>
+            </ul>     
+              
+        </div>
+    </div>
+
+    <div class="col-4">
+        <div id="connect">
+            <h3>Connect with Me</h3>
+            <hr>
+            <a href="https://github.com/julesazuma" target="_blank"><img src="/Users/julesazuma/Documents/Bootstrap-Portfolio/assets/images/if_social_media-13_3456205.png" height="51"/>
+            </a>
+
+            <a href="https://www.linkedin.com/in/jules-azuma-b09aa0166/" target="_blank"><img src="/Users/julesazuma/Documents/Bootstrap-Portfolio/assets/images/if_social_media-18_3456200.png" height="51"/>
+            </a>
+
+            <a href="https://stackoverflow.com/users/10024295/jules-azuma" target="_blank"><img src="/Users/julesazuma/Documents/Bootstrap-Portfolio/assets/images/if_social_media-32_3456186.png" height="51"/>
+            </a>
+        </div>
+    </div> 
+</div>
+
+<div class="row">
+    <div class="col-12" id="footer">
+        <p>&copy; Copyright</p>
+    </div> 
+ </div>     
+
 </body>
-
 </html>
