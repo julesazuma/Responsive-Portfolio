@@ -47,7 +47,7 @@ body {
 }
 
 #header {
-	background: #fff;
+	background: #4aaaa5;
 	height: 70px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #777777;
@@ -107,8 +107,7 @@ body {
 	text-align: center;
 	line-height: 70px;
 	color: #fff;
-	border-top: 2px solid #4aaaa5;
-
+    border-top: 2px solid #4aaaa5;
 }
 
 /* Index.html */
