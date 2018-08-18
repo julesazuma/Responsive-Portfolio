@@ -100,3 +100,58 @@
 	}
 }
 
+
+@media only screen and (max-width: 640px) {
+    
+    body {
+    	height: 1200px;
+    }
+
+    #brand h1 {
+    	width: 100%;
+    	margin: 0;
+	}
+
+	#nav {
+		text-align: center;
+		position: relative;
+		background: #fff;
+		margin-bottom: 20px;
+		padding: 0px;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	#about {
+		margin: 25px;
+		height: auto;
+	}
+
+	#about img {
+		width: 90%;
+		margin: 15px 5% 15px 5%;
+	}
+
+	#connect {
+		margin: 25px;
+		text-align: center;
+	}
+
+	[class*="col-"] {
+        width: 100%;
+    }
+
+    #portfolio {
+    	margin: 25px;
+    }
+
+    #portfolio li {
+		width: 90%;
+		height: 200px;
+		margin: 15px 5% 20px 5%;
+	}
+
+    #contact {
+    	margin: 25px;
+    }
+}
